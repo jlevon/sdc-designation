@@ -10,7 +10,7 @@ markdown2extras: wiki-tables, code-friendly
 -->
 
 <!--
-    Copyright 2019, Joyent, Inc.
+    Copyright 2019 Joyent, Inc.
 -->
 
 # sdc-designation (formerly known as DAPI)
