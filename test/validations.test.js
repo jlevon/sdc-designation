@@ -5,7 +5,7 @@
  */
 
 /*
- * Copyright 2019 Joyent, Inc.
+ * Copyright 2019, Joyent, Inc.
  */
 
 var test = require('tape');
@@ -195,6 +195,7 @@ var DEFAULTS = {
 	filter_headnode: true,
 	filter_min_resources: true,
 	filter_large_servers: true,
+	filter_capness: true,
 	filter_docker_min_platform: '20130308T102805Z',
 	filter_vm_limit: true,
 	filter_owner_server: {

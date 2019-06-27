@@ -10,7 +10,7 @@ markdown2extras: wiki-tables, code-friendly
 -->
 
 <!--
-    Copyright 2019 Joyent, Inc.
+    Copyright 2019, Joyent, Inc.
 -->
 
 # sdc-designation (formerly known as DAPI)
@@ -310,6 +310,7 @@ Some default values can be altered upon allocator initialisation.
 | **Attribute**            | **Type** | **Default** | **Description** |
 | ------------------------ | -------- | ------------| --------------- |
 | disable_override_overprovisioning | Boolean | false | Whether the override-overprovisioning plugin should be disabled. |
+| filter_capness           | Boolean  | true    | Whether to cross check CPU caps.                                      |
 | filter_docker_min_platform        | String  | -     | Minimum platform version allowed for Docker containers.         |
 | filter_docker_nfs_volumes_automount_min_platform      | String  | -     | Minimum platform version allowed for Docker containers that automatically mount NFS volumes. |
 | filter_non_docker_nfs_volumes_automount_min_platform  | String  | -     | Minimum platform version allowed for non-Docker (infrastructure) containers that automatically mount NFS volumes. |
